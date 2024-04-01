@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+/* style */
+body {
+    background-color: #343535;
+    font-family: "Poppins-Bold", Helvetica;
+    max-width: 100%;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%; 
+    /* background-color: rgba( 52, 53, 53, 0.8); */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #53B476;
+    padding: 8px 10px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+nav ul li a:hover {
+    color: #53B476;
+    transition: .3s;
+
+}
+
+nav ul li a.Portofolio {
+    border: none;
+    background: #53B476;
+}
+
+
+nav ul li a.Portofolio:hover {
+    border: 1px solid #53B476;
+    background: none;
+    color: #fff;
+}
+
+button a.login{
+    text-decoration: none;
+    color: #fff;
+}
+button {
+    border: none;
+    background: #53B476;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .4s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    padding: 180px 5%;
+}
+
+h1 {
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+span {
+    color: #53B476;
+}
+
+img.tulisan {
+    position: absolute;
+    top: 215px;
+    right: 0;
+    max-width: 50%;
+}
+
+h3 {
+    font-weight: 700;
+    color: #53b476;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-top: 120px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 45%;
+}
+
+.social {
+    width: 45%;
+}
+
+h2 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: 0;
+}
+  
+p {
+    font-weight: 500;
+    color: #94a3b8;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0.5;
+    line-height: normal;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding-left: 55%;
+
+ }
+
+aside {
+    color: #ffffff;
+    background-color: #53B476;
+    text-align: center;
+    top: 20px;
+    left: 0;
+    right: 0;
+ }
+
+h3.porto {
+    color: #ffffff;
+    padding-top: 120px;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+ }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+ }
+ 
+ 
+ p.tentang {
+    color: #fff;
+    text-align: center;
+ }
+
+
+.biodata {
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+
+img.orang {
+    padding-top: 20px;
+    width: 90%;
+}
+
+
+.data {
+    padding-bottom: 20px;
+}
+
+
+p.nama {
+    color: #fff;
+    text-align: center;
+}
+
+
+.gallery {
+    padding: 10px 5%;  
+}
+
+
+.gambar {
+    display: flex;
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 240px;
+    padding: 50px 0;
+    box-shadow: 0 0 5px 0;
+    
+}
+
+
+p.footer {
+    text-align: center;
+    margin : 30px 0; 
+}
+
+
+/* responsive */
+@media (max-width : 782px ){
+
+    .navbar {
+       padding: 2% 4%;
+    }
+
+
+    img.home {
+        width: 20px;
+    }
+
+
+    nav ul {
+        background-color: rgba( 31, 33, 37, 1);
+        border-radius: 25px;
+        padding: 5px 6px;
+    }
+
+
+    nav ul:hover {
+        background-color: rgba( 31, 33, 37, 0.5);
+    }
+
+
+    nav ul li {
+        padding: 0 ;
+
+    }
+
+
+    nav ul li a {
+        display: flex;
+        border: none;
+        padding: 10px 15px;
+        font-size: 10px;
+        border-radius: 25px;
+    }
+
+
+    nav ul li a:hover {
+        color: #fff;
+        background: #53B476;
+        transition: .3s;
+    }
+
+
+    nav ul li a.Portofolio {
+        border: none;
+        background: none;
+    }
+
+
+    nav ul li a.Portofolio:hover {
+        border: none;
+        background: #53B476;
+    }
+    
+    button a.login {
+        text-decoration: none;
+        color: white;
+    }
+
+    button {
+        border: none;
+        background: #53B476;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        transition: .4s;
+    }
+
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .social {
+        width: 100%;
+    }
+    
+
+    img.tulisan {
+        top: 180px;
+    }
+
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .sosmed {
+        padding-left: 0;
+        width: 10%;
+
+    }
+
+
+    img.icon {
+        width: 30px;
+        padding: 0 2px;
+       
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding-left: 15%;
+    }
+
+
+
+    h3.porto {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    
+
+    p.tentang {
+        font-size: 12px;
+    }
+
+
+    .biodata {
+        border: 2px solid #fff;
+        border-radius: 25px;
+        width: 80%;
+        margin: 30px 0;
+    }
+
+    img.orang {
+        padding-top: 30px;
+        width: 80%;
+    }
+
+    h4{
+        font-size: 14px;
+
+    }
+
+
+    p.nama {
+        font-size: 12px;
+
+    }
+    
+    img.whatsapp {
+        width: 20px;
+
+    }
+
+    p.footer {
+        font-size: 12px;
+    }
+
+ }
+ 

@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* style  */
+
+body {
+    background-image: url(../img/fotoproject.png);
+    background-color: #343535;
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins-Bold", Helvetica;;
+}
+
+
+.container {
+    background-color: rgba(54, 53, 53, 0.9);
+    margin: 30px 300px;
+    border-radius: 20px;
+    /* height: 600px; */
+}
+
+
+.header {
+    border-bottom: 0.5px solid #606464;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 25% 1.5% 25%;
+    margin-bottom: 0;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+
+
+ul li a:hover {
+    color: #53B476;
+    border-bottom: 2px solid #53B476;
+}
+
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: .5% 20%;
+}
+
+
+p {
+    color: #fff;
+    line-height: normal;
+    font-weight: 700;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+
+input {
+    background: transparent;
+    border: 0.2px solid #eee;
+    border-radius: 5px;
+    width: 90%;
+    padding: 3% 5%;
+}
+
+
+p.lupa {
+    text-align: right;
+    font-weight: 100;
+    margin-bottom: 0;
+} 
+
+button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #53B476;
+    padding: 3% 5%;
+    font-size: 18px;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.caralain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+p.atau {
+    font-weight: 100;
+    letter-spacing: 2%;
+}
+
+button.login {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #606464;
+    margin: 4px 26%;
+    justify-content: space-evenly;
+}
+
+
+img.vektor {
+    padding-right: 5px;
+}
+
+
+.footer {
+    border-top: 1px solid #53B476;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(185, 185, 61);
+}
+
+p.belum {
+    font-weight: 200;
+    letter-spacing: 2%;
+}
+
